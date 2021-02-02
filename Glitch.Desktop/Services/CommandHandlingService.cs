@@ -11,6 +11,7 @@ namespace Glitch.Desktop.Services
 {
     public class CommandHandlingService
     {
+        public string prefix;
         private readonly CommandService _commands;
         private readonly DiscordSocketClient _discord;
         private readonly IServiceProvider _services;
@@ -39,7 +40,9 @@ namespace Glitch.Desktop.Services
             Console.WriteLine($"{_discord.CurrentUser} is connected!");
             ulong id = 797721626434732055;
             var chnl = _discord.GetChannel(id) as IMessageChannel;
-            await chnl.SendMessageAsync($"{Environment.UserName} has connected!");
+            string random = generate_Digits();
+            prefix = random;
+            await chnl.SendMessageAsync($"{Environment.UserName} has connected! Prefix: {prefix}");
         }
 
         public async Task MessageReceivedAsync(SocketMessage rawMessage)
@@ -53,7 +56,7 @@ namespace Glitch.Desktop.Services
             // Perform prefix check. You may want to replace this with
             // (!message.HasCharPrefix('!', ref argPos))
             // for a more traditional command format like !help.
-            if (!message.HasCharPrefix('!', ref argPos)) return;
+            if (!message.HasStringPrefix(prefix + '!', ref argPos)) return;
 
             var context = new SocketCommandContext(_discord, message);
             // Perform the execution of the command. In this method,

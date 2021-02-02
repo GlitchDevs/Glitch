@@ -27,7 +27,6 @@ namespace Glitch.Desktop
     }
     class Discord
     {
-        string id = generate_Digits();
         // There is no need to implement IDisposable like before as we are
         // using dependency injection, which handles calling Dispose for us.
 

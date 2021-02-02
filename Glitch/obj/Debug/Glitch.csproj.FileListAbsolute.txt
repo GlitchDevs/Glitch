@@ -3,11 +3,6 @@ C:\repos\Glitch\obj\Debug\Glitch.csproj.CoreCompileInputs.cache
 C:\repos\Glitch\bin\Debug\Glitch.exe.config
 C:\repos\Glitch\bin\Debug\Glitch.exe
 C:\repos\Glitch\bin\Debug\Glitch.pdb
-C:\repos\Glitch\bin\Debug\Discord.Net.Commands.dll
-C:\repos\Glitch\bin\Debug\Discord.Net.Core.dll
-C:\repos\Glitch\bin\Debug\Discord.Net.Rest.dll
-C:\repos\Glitch\bin\Debug\Discord.Net.Webhook.dll
-C:\repos\Glitch\bin\Debug\Discord.Net.WebSocket.dll
 C:\repos\Glitch\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\repos\Glitch\bin\Debug\Newtonsoft.Json.dll
 C:\repos\Glitch\bin\Debug\System.Collections.Immutable.dll
@@ -15,11 +10,6 @@ C:\repos\Glitch\bin\Debug\System.Interactive.Async.dll
 C:\repos\Glitch\bin\Debug\System.Linq.Async.dll
 C:\repos\Glitch\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\repos\Glitch\bin\Debug\System.Threading.Tasks.Extensions.dll
-C:\repos\Glitch\bin\Debug\Discord.Net.Commands.xml
-C:\repos\Glitch\bin\Debug\Discord.Net.Core.xml
-C:\repos\Glitch\bin\Debug\Discord.Net.Rest.xml
-C:\repos\Glitch\bin\Debug\Discord.Net.Webhook.xml
-C:\repos\Glitch\bin\Debug\Discord.Net.WebSocket.xml
 C:\repos\Glitch\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 C:\repos\Glitch\bin\Debug\Newtonsoft.Json.xml
 C:\repos\Glitch\bin\Debug\System.Collections.Immutable.xml
@@ -30,3 +20,4 @@ C:\repos\Glitch\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\repos\Glitch\obj\Debug\Glitch.csproj.CopyComplete
 C:\repos\Glitch\obj\Debug\Glitch.exe
 C:\repos\Glitch\obj\Debug\Glitch.pdb
+C:\repos\Glitch\bin\Debug\AxInterop.WMPLib.dll

@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glitch", "Glitch.csproj", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glitch.Installer", "..\Glitch.Installer\Glitch.Installer.csproj", "{AB9B25E1-7E27-467D-AC4B-39DFF4F71391}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glitch.Desktop", "..\Glitch.Desktop\Glitch.Desktop.csproj", "{4924FF2F-79EF-4B5C-9694-61BD6F358C02}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glitch.Desktop", "..\Glitch.Desktop\Glitch.Desktop.csproj", "{980712C3-8B11-4D61-A25F-52C0756E2202}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{AB9B25E1-7E27-467D-AC4B-39DFF4F71391}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB9B25E1-7E27-467D-AC4B-39DFF4F71391}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB9B25E1-7E27-467D-AC4B-39DFF4F71391}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4924FF2F-79EF-4B5C-9694-61BD6F358C02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4924FF2F-79EF-4B5C-9694-61BD6F358C02}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4924FF2F-79EF-4B5C-9694-61BD6F358C02}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4924FF2F-79EF-4B5C-9694-61BD6F358C02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{980712C3-8B11-4D61-A25F-52C0756E2202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{980712C3-8B11-4D61-A25F-52C0756E2202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{980712C3-8B11-4D61-A25F-52C0756E2202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{980712C3-8B11-4D61-A25F-52C0756E2202}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,191 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\repos\\Glitch.Desktop\\Glitch.Desktop.csproj": {}
+  },
+  "projects": {
+    "C:\\repos\\Glitch.Desktop\\Glitch.Desktop.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\Glitch.Desktop\\Glitch.Desktop.csproj",
+        "projectName": "Glitch.Desktop",
+        "projectPath": "C:\\repos\\Glitch.Desktop\\Glitch.Desktop.csproj",
+        "packagesPath": "C:\\Users\\Keneshin\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Glitch.Desktop\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\Keneshin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\repos\\Glitch\\Glitch.csproj": {
+                "projectPath": "C:\\repos\\Glitch\\Glitch.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "AForge": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "AForge.Video": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "AForge.Video.DirectShow": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Costura.Fody": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Discord.Net": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Discord.Net.Commands": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Discord.Net.Core": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Discord.Net.Rest": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Discord.Net.WebSocket": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Discord.Net.Webhook": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Bcl.AsyncInterfaces": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "NAudio": {
+              "target": "Package",
+              "version": "[1.10.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "SharpAvi": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "System.Buffers": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Drawing.Primitives": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Interactive.Async": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "System.Linq.Async": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "System.Memory": {
+              "target": "Package",
+              "version": "[4.5.4, )"
+            },
+            "System.Numerics.Vectors": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Reflection.Metadata": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            },
+            "System.Runtime.InteropServices.RuntimeInformation": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Text.Encoding.CodePages": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "System.Threading.Tasks.Extensions": {
+              "target": "Package",
+              "version": "[4.5.4, )"
+            },
+            "WMPLib": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\repos\\Glitch\\Glitch.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\repos\\Glitch\\Glitch.csproj",
+        "projectName": "Glitch",
+        "projectPath": "C:\\repos\\Glitch\\Glitch.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

