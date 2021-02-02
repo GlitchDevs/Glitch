@@ -1,0 +1,16 @@
+﻿Выполняется установка сборки 'C:\repos\Glitch\bin\Debug\Glitch.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = C:\repos\Glitch\bin\Debug\Glitch.InstallLog
+   assemblypath = C:\repos\Glitch\bin\Debug\Glitch.exe
+Устанавливается служба Glitch Dev...
+Создается исходный EventLog Glitch Dev в журнале Application...
+Выполняется откат для сборки 'C:\repos\Glitch\bin\Debug\Glitch.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = C:\repos\Glitch\bin\Debug\Glitch.InstallLog
+   assemblypath = C:\repos\Glitch\bin\Debug\Glitch.exe
+Восстанавливается исходное состояние журнала событий для источника Glitch Dev.
+При выполнении программы установки System.Diagnostics.EventLogInstaller на этапе отката возникло исключение.
+System.Security.SecurityException: Источник не найден, но не удалось выполнить поиск по нескольким или всем журналам событий.  Недоступные журналы: Security, State.
+На этапе отката процедуры установки возникло исключение. Это исключение будет проигнорировано, и откат будет продолжен. Однако после завершения отката компьютер может не вернуться полностью в исходное состояние.

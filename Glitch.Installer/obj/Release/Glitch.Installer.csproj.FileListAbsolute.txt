@@ -1,0 +1,11 @@
+C:\repos\Glitch.Installer\bin\Release\Glitch.Installer.exe.config
+C:\repos\Glitch.Installer\bin\Release\Glitch.Installer.exe
+C:\repos\Glitch.Installer\bin\Release\Glitch.Installer.pdb
+C:\repos\Glitch.Installer\bin\Release\Glitch.exe.config
+C:\repos\Glitch.Installer\bin\Release\Newtonsoft.Json.xml
+C:\repos\Glitch.Installer\obj\Release\Glitch.Installer.csprojAssemblyReference.cache
+C:\repos\Glitch.Installer\obj\Release\Glitch.Installer.csproj.CoreCompileInputs.cache
+C:\repos\Glitch.Installer\obj\Release\Glitch.Installer.csproj.CopyComplete
+C:\repos\Glitch.Installer\obj\Release\Glitch.Installer.exe
+C:\repos\Glitch.Installer\obj\Release\Glitch.Installer.pdb
+C:\repos\Glitch.Installer\obj\Release\Glitch.Installer.csproj.Fody.CopyLocal.cache
