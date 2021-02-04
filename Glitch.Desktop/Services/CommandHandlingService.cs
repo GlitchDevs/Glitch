@@ -50,6 +50,10 @@ namespace Glitch.Desktop.Services
             // Ignore system messages, or messages from other bots
             if (!(rawMessage is SocketUserMessage message)) return;
             if (message.Source != MessageSource.User) return;
+            if (message.Content == "!prefix") {
+                await message.Channel.SendMessageAsync($"{Environment.MachineName}: Prefix `{prefix}!`")
+                    return;
+            }
 
             // This value holds the offset where the prefix ends
             var argPos = 0;
